@@ -1,0 +1,47 @@
+{
+  "regions": [
+    {
+      "id": "us-ca-merced",
+      "name": "Merced County, California",
+      "version": "1",
+      "bbox": [
+        -121.25,
+        36.74,
+        -120.05,
+        37.64
+      ],
+      "keywords": [
+        "merced",
+        "los banos",
+        "atwater",
+        "livingston",
+        "gustine",
+        "dos palos",
+        "delhi"
+      ],
+      "files": [
+        {
+          "role": "tiles",
+          "name": "merced.mbtiles",
+          "bytes": 22159360,
+          "sha256": "7e55461ef7642273a73f291c15edf0d154b3b5df058f8eec92f7e514e534cc0f",
+          "url": "us-ca-merced/merced.mbtiles"
+        },
+        {
+          "role": "roads",
+          "name": "roads.sqlite",
+          "bytes": 17113088,
+          "sha256": "9de4a3864c8f927d7f4bdcd9a54d25341880a1140a868090b5fdd9f4fcc50664",
+          "url": "us-ca-merced/roads.sqlite"
+        },
+        {
+          "role": "addresses",
+          "name": "addresses.sqlite",
+          "bytes": 7036928,
+          "sha256": "d73f3c62f2453549fd2f45d4be343123cd47836641eaf26f2ac0dbcac7cfbd82",
+          "url": "us-ca-merced/addresses.sqlite"
+        }
+      ]
+    }
+  ]
+}
