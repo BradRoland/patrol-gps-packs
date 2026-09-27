@@ -3,7 +3,7 @@
     {
       "id": "us-ca-merced",
       "name": "Merced County, California",
-      "version": "1",
+      "version": "3",
       "bbox": [
         -121.25,
         36.74,
@@ -23,25 +23,42 @@
         {
           "role": "tiles",
           "name": "merced.mbtiles",
-          "bytes": 22159360,
-          "sha256": "7e55461ef7642273a73f291c15edf0d154b3b5df058f8eec92f7e514e534cc0f",
+          "bytes": 22306816,
+          "sha256": "dfc4ee9b34959c3a33d83b7553eda3cf2af6a15cfa2b1745f6f83ba62c35fc89",
           "url": "us-ca-merced/merced.mbtiles"
         },
         {
           "role": "roads",
           "name": "roads.sqlite",
-          "bytes": 17113088,
-          "sha256": "9de4a3864c8f927d7f4bdcd9a54d25341880a1140a868090b5fdd9f4fcc50664",
+          "bytes": 17240064,
+          "sha256": "b8d834a341e541becec1b7962401bd12ba4d1906625cd29df8957e83b3436725",
           "url": "us-ca-merced/roads.sqlite"
         },
         {
           "role": "addresses",
           "name": "addresses.sqlite",
-          "bytes": 7036928,
-          "sha256": "d73f3c62f2453549fd2f45d4be343123cd47836641eaf26f2ac0dbcac7cfbd82",
+          "bytes": 7147520,
+          "sha256": "9e02198a59f1b65a095a3583ee2604362e10e593085b496d130dfae89a440190",
           "url": "us-ca-merced/addresses.sqlite"
+        },
+        {
+          "role": "places",
+          "name": "places.sqlite",
+          "bytes": 40960,
+          "sha256": "f9a189d2f9624fac9211dbc447ffc39c25dba8c3abdec6a0a93e0c62cbd5b51d",
+          "url": "us-ca-merced/places.sqlite"
         }
-      ]
+      ],
+      "sources": {
+        "openfreemap_planet": "20260913_164504_pt",
+        "geofabrik": "california-260925.osm.pbf",
+        "county_roads": "Merced County GIS Road_Centerlines",
+        "tiger": "tl_2024_06047_roads; tl_2025_06047_roads checked 2025-09-13",
+        "overture_buildings": "2026-09-23.1",
+        "overture_transportation": "2026-09-23.1",
+        "county_parcels": "Assessment_Parcels public, no names added",
+        "los_banos_parks": "OpenStreetMap Overpass 2026-09-27T00:05:19Z; named pitch/playground query 2026-09-27T00:15:20Z returned 0; California Protected Areas Database on Merced County GIS queried 2026-09-27; City of Los Banos parks PDF is names and addresses only"
+      }
     }
   ]
 }
