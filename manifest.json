@@ -3,7 +3,7 @@
     {
       "id": "us-ca-merced",
       "name": "Merced County, California",
-      "version": "4",
+      "version": "5",
       "bbox": [
         -121.25,
         36.74,
@@ -24,14 +24,14 @@
           "role": "tiles",
           "name": "merced.mbtiles",
           "bytes": 22614016,
-          "sha256": "92fb227922702d85de047b8c69a41da1f72bc06061ae234e0f49437bd2c0813b",
+          "sha256": "8375781104ba62574f2b1694eafd993f1d2c87c31768a39546723dd3174ad295",
           "url": "us-ca-merced/merced.mbtiles"
         },
         {
           "role": "roads",
           "name": "roads.sqlite",
-          "bytes": 17240064,
-          "sha256": "b8d834a341e541becec1b7962401bd12ba4d1906625cd29df8957e83b3436725",
+          "bytes": 17248256,
+          "sha256": "a374f080c8ab8bb54816a60813cb730cc7abd44c3ed8ec83973b0402da54ba6b",
           "url": "us-ca-merced/roads.sqlite"
         },
         {
@@ -53,12 +53,13 @@
         "openfreemap_planet": "20260913_164504_pt",
         "geofabrik": "california-260925.osm.pbf",
         "county_roads": "Merced County GIS Road_Centerlines",
-        "tiger": "tl_2024_06047_roads; tl_2025_06047_roads checked 2025-09-13",
+        "tiger": "tl_2024_06047_roads; tl_2025_06047_roads checked 2026-09-27, no Harvest Hills streets; TIGER 2026 not published",
         "overture_buildings": "2026-09-23.1",
         "overture_transportation": "2026-09-23.1",
         "county_parcels": "Assessment_Parcels public, no names added",
         "los_banos_parks": "OpenStreetMap Overpass 2026-09-27T00:05:19Z; named pitch/playground query 2026-09-27T00:15:20Z returned 0; California Protected Areas Database on Merced County GIS queried 2026-09-27; City of Los Banos parks PDF is names and addresses only",
-        "county_housenumbers": "Merced County GIS site-address points drawn where no OSM housenumber with the same number is within 15 m"
+        "county_housenumbers": "Merced County GIS site-address points unchanged since 2026-06-17; v4 house numbers kept",
+        "county_roads_v5": "Merced County GIS Road_Centerlines rechecked 2026-09-27; newest Active edit 2026-05-21; Los Banos streets missing from the v4 tiles were added"
       }
     }
   ]
