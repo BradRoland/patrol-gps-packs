@@ -43,3 +43,9 @@ County site-address points were rechecked on 2026-09-26. The service still has 1
 The City of Los Banos does not publish a road-centerline download.
 
 Live Overpass for the box (2026-09-26T23:50:05Z) is one day newer than the Geofabrik extract and still does not name these streets.
+
+## Merced County, version 4
+
+Version 4 keeps the version 3 roads, addresses, and park rings. It draws Merced County site-address points on the map as `supplemental_housenumber` when the tiles have no OpenStreetMap `housenumber` with the same number within 15 meters. The label uses the same font, size, and zoom range as the OpenStreetMap numbers. Of 29,041 county points, 16,493 are drawn and 12,548 already sit on an OpenStreetMap number. All 273 points on the new streets east of Overland Avenue and Place Road (Collins, Donovan, Dowell, Meyers, Parker, Sullivan, Barrett, Broadstone, Casey, Gallaway, Kelley, and Geiss) are drawn. A number with no building footprint within 15 meters is drawn alone, with a small dot. No footprint was invented.
+
+`merced.mbtiles` is 22,614,016 bytes, sha256 `92fb227922702d85de047b8c69a41da1f72bc06061ae234e0f49437bd2c0813b`. `roads.sqlite`, `addresses.sqlite`, and `places.sqlite` are unchanged from version 3.

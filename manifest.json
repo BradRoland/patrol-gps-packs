@@ -3,7 +3,7 @@
     {
       "id": "us-ca-merced",
       "name": "Merced County, California",
-      "version": "3",
+      "version": "4",
       "bbox": [
         -121.25,
         36.74,
@@ -23,8 +23,8 @@
         {
           "role": "tiles",
           "name": "merced.mbtiles",
-          "bytes": 22306816,
-          "sha256": "dfc4ee9b34959c3a33d83b7553eda3cf2af6a15cfa2b1745f6f83ba62c35fc89",
+          "bytes": 22614016,
+          "sha256": "92fb227922702d85de047b8c69a41da1f72bc06061ae234e0f49437bd2c0813b",
           "url": "us-ca-merced/merced.mbtiles"
         },
         {
@@ -57,7 +57,8 @@
         "overture_buildings": "2026-09-23.1",
         "overture_transportation": "2026-09-23.1",
         "county_parcels": "Assessment_Parcels public, no names added",
-        "los_banos_parks": "OpenStreetMap Overpass 2026-09-27T00:05:19Z; named pitch/playground query 2026-09-27T00:15:20Z returned 0; California Protected Areas Database on Merced County GIS queried 2026-09-27; City of Los Banos parks PDF is names and addresses only"
+        "los_banos_parks": "OpenStreetMap Overpass 2026-09-27T00:05:19Z; named pitch/playground query 2026-09-27T00:15:20Z returned 0; California Protected Areas Database on Merced County GIS queried 2026-09-27; City of Los Banos parks PDF is names and addresses only",
+        "county_housenumbers": "Merced County GIS site-address points drawn where no OSM housenumber with the same number is within 15 m"
       }
     }
   ]
